@@ -1,12 +1,11 @@
 @import "./todoapp.scss";
+@import "./calculator.scss";
 
 html,
 body {
 	margin: 0;
 	padding: 0;
 }
-
-
 
 button {
 	margin: 0;
@@ -44,9 +43,6 @@ body {
 .hidden {
 	display: none;
 }
-
-
-
 
 .new-todo,
 .edit {

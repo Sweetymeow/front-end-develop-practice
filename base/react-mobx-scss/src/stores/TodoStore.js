@@ -30,7 +30,10 @@ export default class TodoStore {
 
 	@action
 	addTodo (title) {
-		this.todos.push(new TodoModel(this, Utils.uuid(), title, false));
+		this.todos.push(
+			new TodoModel(this, Utils.uuid(),
+			title,
+			false));
 	}
 
 	@action

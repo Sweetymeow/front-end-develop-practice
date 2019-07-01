@@ -35,7 +35,7 @@ const config = {
   module: {
     rules: [
       { test: /\.jsx|js?$/, use: 'happypack/loader?id=jsx', exclude: NODE_MODULES_PATH },
-      { test: /\.(sa|sc|c)ss$/, use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'], exclude: NODE_MODULES_PATH }
+      { test: /\.(sa|sc|c)ss$/, use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'], exclude: NODE_MODULES_PATH },
     ]
   },
   devServer: {
@@ -44,7 +44,6 @@ const config = {
     port: 9000
   }
 };
-
 
 console.warn('current environment is', process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {

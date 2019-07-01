@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .todoapp {
   background: #fff;
   margin: 130px 0 40px 0;
@@ -313,4 +314,3 @@ html .clear-completed:active {
     height: 50px; }
   .filters {
     bottom: 10px; } }
-
